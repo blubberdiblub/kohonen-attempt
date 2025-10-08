@@ -93,7 +93,7 @@ class AnimationWindow(MyWindow):
             [0.0, 0.0, 0.0, 1.0],
         ], dtype=np.float32))
 
-        self.__scope = self.ctx.scope(uniform_buffers=[])
+        # self.__scope = self.ctx.scope(uniform_buffers=[])
 
         self.__rng = np.random.Generator(np.random.PCG64(seed=1))
 
